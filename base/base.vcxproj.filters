@@ -9,10 +9,12 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="menucpp.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +38,9 @@
       <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="fnv.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>

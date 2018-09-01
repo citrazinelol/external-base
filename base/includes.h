@@ -19,3 +19,6 @@
 #include <psapi.h>
 #include <map>
 #include <cctype>
+#include <functional>
+#include <unordered_map>
+#include <sstream>
